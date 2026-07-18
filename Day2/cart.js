@@ -23,4 +23,3 @@ console.log("Shopping Cart");
 console.log("Total Price:",total);
 console.log("Cheapest Item:",cart[0].name);
 
-

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jewellery Store</title>
+  <style>
+    body{
+      font-family: Arial;
+      background:#f5f5f5;
+      text-align:center;
+    }
+
+    #products{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+    }
+
+    .card{
+      width:200px;
+      background:white;
+      padding:10px;
+      border-radius:10px;
+    }
+
+    .card img{
+      width:120px;
+      height:120px;
+    }
+
+    #loading{
+      font-size:20px;
+      margin:20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Jewellery Store</h1>
+
+<div id="loading">Loading...</div>
+
+<div id="products"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

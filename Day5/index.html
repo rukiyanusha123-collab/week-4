@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Catalog</title>
+  <style>
+    body{
+      font-family: Arial;
+      background:#f5f5f5;
+      text-align:center;
+    }
+
+    #products{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+    }
+
+    .card{
+      width:200px;
+      background:white;
+      padding:10px;
+      border-radius:15px;
+      border: 1px solid chocolate;
+    }
+
+    .card img{
+      width:120px;
+      height:120px;
+    }
+
+    #loading{
+      font-size:20px;
+      margin:20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>PRODUCT SHOWCASE</h1>
+
+<div id="loading">Loading...</div>
+
+<div id="products"></div>
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
